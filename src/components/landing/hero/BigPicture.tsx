@@ -82,9 +82,9 @@ const BigPicture = () => {
               <img width={"40%"} src={"/icons/ai.png"} />
             </CardHeader>
             <CardContent>
-              <p className="text-center text-lg">
+              <p className="text-center text-lg font-semibold">
                 Powerful AI bots from handling queries on social media to taking
-                orders.
+                orders to sending personalized emails.
               </p>
             </CardContent>
           </Card>
@@ -99,7 +99,7 @@ const BigPicture = () => {
               <img width={"40%"} src={"/icons/ecommerce-website.png"} />
             </CardHeader>
             <CardContent>
-              <p className="text-center text-lg">
+              <p className="text-center text-lg font-semibold">
                 Your Online Store, Leads, Customers all managed from intuitive
                 dashboard
               </p>
