@@ -10,7 +10,15 @@ import {
   Medal,
 } from "lucide-react";
 
-const FeatureCard = ({ icon, title, description }) => (
+const FeatureCard = ({
+  icon,
+  title,
+  description,
+}: {
+  icon: React.ReactElement;
+  title: string;
+  description: string;
+}) => (
   <Card className="h-full">
     <CardHeader>
       <CardTitle className="flex items-center gap-2">

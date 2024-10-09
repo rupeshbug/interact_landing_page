@@ -2,7 +2,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Users, Target, RepeatIcon, Sparkles, ArrowRight } from "lucide-react";
 
-const FeatureCard = ({ icon, title, description }) => (
+const FeatureCard = ({
+  icon,
+  title,
+  description,
+}: {
+  icon: React.ReactElement;
+  title: string;
+  description: string;
+}) => (
   <Card className="h-full">
     <CardHeader>
       <CardTitle className="flex items-center gap-2">

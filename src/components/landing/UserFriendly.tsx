@@ -12,7 +12,15 @@ import {
   LayoutDashboard,
 } from "lucide-react";
 
-const FeatureItem = ({ icon, title, description }) => (
+const FeatureItem = ({
+  icon,
+  title,
+  description,
+}: {
+  icon: React.ReactElement;
+  title: string;
+  description: string;
+}) => (
   <div className="flex items-start space-x-3 mb-6">
     <div className="mt-1">{icon}</div>
     <div>
