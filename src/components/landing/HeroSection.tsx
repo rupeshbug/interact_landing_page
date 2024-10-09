@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
+import BigPicture from "../experimental/BigPicture";
 
 const HeroSection = () => {
   return (
-    <div className="bg-gradient-to-r from-purple-600 to-blue-600 min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-r bg-slate-950 min-h-screen flex justify-center py-24 flex-col">
+      <BigPicture />
       <div className="max-w-4xl mx-auto text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
           Put your business on autopilot without compromising control and
