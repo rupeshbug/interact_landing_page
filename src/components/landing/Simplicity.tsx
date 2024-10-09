@@ -80,7 +80,7 @@ const Simplicity = () => {
               <li>Intuitive for beginners</li>
               <li>Powerful for experts</li>
               <li>Constantly evolving with your needs</li>
-              <li>Backed by responsive customer support</li>
+              <li>Responsive customer support</li>
             </ul>
             <Button className="w-full">Experience the Ease Yourself</Button>
           </CardContent>

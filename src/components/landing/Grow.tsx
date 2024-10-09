@@ -23,8 +23,8 @@ const Grow = () => {
         </h2>
         <p className="text-xl text-center mb-12">
           Our app empowers your business to attract more leads and keep
-          customers coming back, driving sustainable growth and long-term
-          success.
+          customers coming back, driving sustainable growth and success in the
+          long-run.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
