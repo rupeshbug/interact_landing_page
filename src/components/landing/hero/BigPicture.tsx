@@ -1,23 +1,22 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Facebook, Instagram, Store, MessageCircle, Bot } from "lucide-react";
 
 const BigPicture = () => {
   const platforms = [
     {
       name: "Facebook",
-      icon: Facebook,
+      icon: "/icons/facebook.png",
       color: "text-blue-600",
       lineColor: "#1877F2",
     },
     {
       name: "Instagram",
-      icon: Instagram,
+      icon: "/icons/instagram.png",
       color: "text-pink-600",
       lineColor: "#E4405F",
     },
     {
       name: "WhatsApp",
-      icon: MessageCircle,
+      icon: "/icons/whatsapp.png",
       color: "text-green-600",
       lineColor: "#25D366",
     },
@@ -26,20 +25,12 @@ const BigPicture = () => {
   return (
     <div className="flex flex-col items-center justify-center p-4 pb-20">
       <div className="relative w-full max-w-4xl">
-        <div className="flex justify-between mb-20">
-          {platforms.map((platform, index) => (
-            <Card key={platform.name} className="w-1/4 z-10">
+        <div className="flex justify-between mb-20 ">
+          {platforms.map((platform) => (
+            <Card key={platform.name} className="w-1/4 z-10 ">
               <CardHeader className="flex flex-col items-center">
-                <CardTitle className={`${platform.color} mb-2 text-xl`}>
-                  {platform.name}
-                </CardTitle>
-                <platform.icon className={`${platform.color} w-12 h-12`} />
+                <img width={"80%"} src={platform.icon} />
               </CardHeader>
-              <CardContent>
-                <p className="text-center text-lg">
-                  Connect with us on {platform.name}
-                </p>
-              </CardContent>
             </Card>
           ))}
         </div>
@@ -88,10 +79,13 @@ const BigPicture = () => {
               <CardTitle className="text-indigo-600 mb-2 text-2xl">
                 AI Bots
               </CardTitle>
-              <Bot className="text-indigo-600 w-12 h-12" />
+              <img width={"40%"} src={"/icons/ai.png"} />
             </CardHeader>
             <CardContent>
-              <p className="text-center text-lg">Interact with our AI Bots</p>
+              <p className="text-center text-lg">
+                Powerful AI bots from handling queries on social media to taking
+                orders.
+              </p>
             </CardContent>
           </Card>
         </div>
@@ -100,12 +94,15 @@ const BigPicture = () => {
           <Card className="w-1/3 z-10">
             <CardHeader className="flex flex-col items-center">
               <CardTitle className="text-purple-600 mb-2 text-2xl">
-                Store
+                Your Online Store
               </CardTitle>
-              <Store className="text-purple-600 w-12 h-12" />
+              <img width={"40%"} src={"/icons/ecommerce-website.png"} />
             </CardHeader>
             <CardContent>
-              <p className="text-center text-lg">Visit our online store</p>
+              <p className="text-center text-lg">
+                Your Online Store, Leads, Customers all managed from intuitive
+                dashboard
+              </p>
             </CardContent>
           </Card>
         </div>

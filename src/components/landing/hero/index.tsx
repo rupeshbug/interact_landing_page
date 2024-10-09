@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import BigPicture from "../experimental/BigPicture";
+import BigPicture from "./BigPicture";
 
 const HeroSection = () => {
   return (

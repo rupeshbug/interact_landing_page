@@ -1,6 +1,7 @@
 import Features from "./components/landing/Feature";
 import Grow from "./components/landing/Grow";
-import HeroSection from "./components/landing/HeroSection";
+import HeroSection from "./components/landing/hero";
+
 import SimpleUx from "./components/landing/SimpleUx";
 import Simplicity from "./components/landing/Simplicity";
 import UserFriendlySection from "./components/landing/UserFriendly";
