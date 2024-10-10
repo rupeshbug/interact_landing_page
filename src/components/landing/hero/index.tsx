@@ -18,7 +18,7 @@ const HeroSection = () => {
             Put your business on autopilot without compromising control and
             visibility
           </h1>
-          <p className="text-xl md:text-2xl text-white my-12">
+          <p className="text-xl md:text-2xl  my-12 text-muted">
             Grow your online business with AI bot automation and interactive
             content generation. Only pay when you see the results.
           </p>
