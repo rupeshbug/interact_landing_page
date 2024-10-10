@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="bg-gradient-to-r  min-h-screen flex justify-center py-24 flex-col">
         <div className="max-w-4xl mx-auto text-center px-4">
           <FlipWords
-            className="text-2xl md:text-4xl lg:text-5xl mb-14 font-semibold text-yellow-600"
+            className="text-2xl md:text-4xl lg:text-5xl mb-14 font-semibold text-primary"
             words={[
               "Never Miss A Potential Customer",
               "Create Lead Generation Funnels",
