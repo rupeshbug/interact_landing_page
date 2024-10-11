@@ -1,6 +1,13 @@
 import ChatDetailBox from "./chat-detail";
 import ChatList from "./chat-list";
 
+interface Message {
+  id: string;
+  sender: "user" | "ava";
+  content: string;
+  timestamp: Date;
+}
+
 const sampleMessages: Message[] = [
   {
     id: "1",
