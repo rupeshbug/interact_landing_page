@@ -79,7 +79,7 @@ const ChatList: React.FC<ChatListProps> = ({ messages = sampleMessages }) => {
           {messages.map((message) => (
             <div
               key={message.id}
-              className="mb-4 p-3 bg-slate-950 text-white rounded-lg"
+              className="mb-4 p-3 bg-slate-900 text-white rounded-lg"
             >
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center space-x-2">
