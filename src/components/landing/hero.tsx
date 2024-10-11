@@ -1,7 +1,4 @@
 import { Button } from "@/components/ui/button";
-import FacebookIcon from "../../../public/icons/facebook.png";
-import WhatsAppIcon from "../../../public/icons/whatsapp.png";
-import InstagramIcon from "../../../public/icons/instagram.png";
 import { FlipWords } from "@/components/ui/flip-words";
 
 const HeroSection = () => {
@@ -37,21 +34,21 @@ const HeroSection = () => {
         <div className="flex justify-center mt-10">
           <div className=" animate-float">
             <img
-              src={FacebookIcon}
+              src={"icons/facebook.png"}
               alt="Facebook"
               className="h-32 cursor-pointer w-32"
             />
           </div>
           <div className=" animate-float">
             <img
-              src={WhatsAppIcon}
+              src={"icons/whatsapp.png"}
               alt="WhatsApp"
               className="h-32 cursor-pointer w-32"
             />
           </div>
           <div className="animate-float">
             <img
-              src={InstagramIcon}
+              src={"icons/instagram.png"}
               alt="Instagram"
               className="h-32 cursor-pointer w-32"
             />
