@@ -1,11 +1,11 @@
 import HeroSection from "./components/landing/hero";
-import WhatWeDo from "./components/landing/what-we-do/WhatWeDo";
+import Features from "./components/landing/features";
 
 function App() {
   return (
     <div>
       <HeroSection />
-      <WhatWeDo />
+      <Features />
     </div>
   );
 }

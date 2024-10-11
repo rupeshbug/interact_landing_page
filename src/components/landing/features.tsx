@@ -16,7 +16,7 @@ const FeatureCard = ({ icon: Icon, title, description }: any) => (
   </div>
 );
 
-const WhatWeDo = () => {
+const Features = () => {
   const features = [
     {
       icon: Bot,
@@ -76,4 +76,4 @@ const WhatWeDo = () => {
   );
 };
 
-export default WhatWeDo;
+export default Features;

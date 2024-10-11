@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
-import FacebookIcon from "../../../../public/icons/facebook.png";
-import WhatsAppIcon from "../../../../public/icons/whatsapp.png";
-import InstagramIcon from "../../../../public/icons/instagram.png";
+import FacebookIcon from "../../../public/icons/facebook.png";
+import WhatsAppIcon from "../../../public/icons/whatsapp.png";
+import InstagramIcon from "../../../public/icons/instagram.png";
 import { FlipWords } from "@/components/ui/flip-words";
 
 const HeroSection = () => {
