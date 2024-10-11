@@ -1,21 +1,12 @@
-import Features from "./components/landing/Feature";
-import Grow from "./components/landing/Grow";
 import HeroSection from "./components/landing/hero";
-
-import SimpleUx from "./components/landing/SimpleUx";
-import Simplicity from "./components/landing/Simplicity";
-import UserFriendlySection from "./components/landing/UserFriendly";
+import WhatWeDo from "./components/landing/what-we-do/WhatWeDo";
 
 function App() {
   return (
-    <>
+    <div>
       <HeroSection />
-      <Features />
-      <Grow />
-      <SimpleUx />
-      <Simplicity />
-      <UserFriendlySection />
-    </>
+      <WhatWeDo />
+    </div>
   );
 }
 
