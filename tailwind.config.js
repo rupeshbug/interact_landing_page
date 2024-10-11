@@ -59,6 +59,9 @@ export default {
           5: "hsl(var(--chart-5))",
         },
       },
+      screens: {
+        "3xl": "2000px",
+      },
     },
   },
   plugins: [

@@ -10,9 +10,9 @@ import {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const FeatureCard = ({ icon: Icon, title, description }: any) => (
   <div className="bg-slate-800 rounded-lg p-6 transition-all duration-300 hover:bg-slate-700 hover:shadow-lg">
-    <Icon className="text-yellow-400 mb-4" size={64} />
+    <Icon className="text-yellow-400 mb-4" size={50} />
     <h3 className="text-3xl font-semibold mb-4">{title}</h3>
-    <p className="text-slate-300 text-xl">{description}</p>
+    <p className="text-slate-300 text-lg 3xl:text-xl">{description}</p>
   </div>
 );
 
