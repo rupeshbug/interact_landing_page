@@ -58,11 +58,11 @@ const WhatWeDo = () => {
 
   return (
     <div className="bg-slate-950 text-white px-8 md:px-16 lg:px-24 py-16">
-      <h2 className="text-3xl md:text-5xl font-bold mb-8 text-center">
+      <h2 className="text-3xl md:text-5xl font-bold mb-10 text-center">
         Supercharge Your{" "}
         <span className="text-yellow-400">Online Business</span>
       </h2>
-      <p className="text-xl md:text-2xl text-center mb-12 max-w-3xl mx-auto">
+      <p className="text-xl md:text-3xl text-center mb-16 max-w-5xl mx-auto">
         Create your online store and seamlessly integrate with major social
         media platforms like Facebook, Instagram, and WhatsApp to never miss a
         potential customer.
