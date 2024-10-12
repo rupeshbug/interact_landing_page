@@ -93,7 +93,7 @@ const ChatFeature = () => {
             <ChatList />
           </div>
           <div className="w-full">
-            <ChatDetailBox userName="ace" messages={sampleMessages} />
+            <ChatDetailBox userName="user123" messages={sampleMessages} />
           </div>
         </div>
       </div>
